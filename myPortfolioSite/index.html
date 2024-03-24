@@ -41,24 +41,236 @@
             </div>
         </div>
     </nav>
-<!-- hero section  -->
+<!-- hero sections Started  -->
 <section id="profile">
     <div class="section__pic-container">
         <img src="./images/profile-pic.png" alt="john Doe Profile picture">
     </div>
     <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1>John Doe</h1>
+        <h1 class="title">John Doe</h1>
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
             <button class="btn btn-color-2" onclick="window.open('./images/resume-example.pdf')">Download CV</button>
             <button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Info</button>
         </div>
+        <div id="social-container">
+            <img src="./images/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/venusitaram'">
+            <img src="./images/github.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.github.com/AtisTechnlogy'">
+
+        </div>
     </div>
 </section>
+<!-- About Section  -->
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+       <div class="section__pic-container">
+            <img src="./images/about-pic.png" alt="Profile Picture" class="about-pic">
+       </div>
+       <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./images/experience.png" alt="Experience Icon" class="icon">
+                    <h3>Experience</h3>
+                    <p>2+ years <br>Frontedn Development</p>
+                </div>
+                <div class="details-container">
+                    <img src="images/education.png" alt="Experience Icon" class="icon">
+                    <h3>Education</h3>
+                    <p>B.Sc. Bachelors Degree<br>M.Sc. Masters Degree</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Tempora veniam totam dolorem, debitis similique accusamus,
+                    unde voluptatum et tempore numquam quos vel ad in sunt deserunt
+                    eaque doloremque assumenda animi beatae laborum modi deleniti!
+                    Assumenda, ratione reiciendis deserunt dolorem, deleniti laudantium
+                    sed saepe, rerum perspiciatis praesentium in asperiores cum exercitationem.
+                </p>
+            </div>
+       </div>
+    </div>
+    <img src="./images/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+<!-- EXPERIENCE SECTION  -->
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">  
+            <!--  DETAILS CONTAINER - 1 --> 
+            <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <!-- article #1  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <!-- article #2  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <!-- article #3  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>SAAS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <!-- article #4  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <!-- article #5  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>TypeScript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                     <!-- article #5  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>Material UI</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!--  DETAILS CONTAINER - 2 -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <!-- article #1  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>PostgreSQL</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <!-- article #2  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>Node JS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <!-- article #3  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>Express JS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <!-- article #4  -->
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./images/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+</section>
+<!-- PROJECTS SECTION  -->
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/project-1.png" alt="Project One" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-sub-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/AtisTechnlogy'">github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/AtisTechnlogy'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/project-2.png" alt="Project Two" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-sub-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/AtisTechnlogy'">github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/AtisTechnlogy'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/project-3.png" alt="Project Three" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-sub-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/AtisTechnlogy'">github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/AtisTechnlogy'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./images/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+</section>
+
+<!-- CONTACT SECTION  -->
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./images/email.png" alt="email icon" class="icon contact-icon">
+            <p><a href="mailto:atistechnlogy@gmail.com">atistechnlogy@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./images/linkedin.png" alt="email icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/venusitaram">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<!-- FOOTER AREA  -->
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>    
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Sitaram. All Rights Reserved.</p>
+</footer>
 
 
-
+   <!-- CUSTOM JAVASCRIPT  -->
     <script src="./scripts/main.js"></script>
 </body>
 </html>
